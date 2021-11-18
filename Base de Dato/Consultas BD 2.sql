@@ -1,0 +1,10 @@
+SELECT DISTINCT c.nombre_cliente, p.codigo_pedido, p.fecha_entrega FROM cliente c JOIN pedido p WHERE p.fecha_entrega LIKE ('%2007%');
+SELECT p.nombre,p.precio_venta,g.gama,g.descripcion_texto FROM gama_producto g JOIN producto p WHERE p.precio_venta BETWEEN 100 AND 300; 
+SELECT p.codigo_pedido, p.fecha_pedido, l.nombre, p.estado FROM producto l JOIN pedido p WHERE p.estado LIKE ('%Pendiente%');
+SELECT DISTINCT c.nombre_cliente, c.pais, p.forma_pago FROM pago p JOIN cliente c WHERE p.forma_pago LIKE ('%PayPal%') AND c.pais LIKE('%Spain%');
+SELECT DISTINCT c.nombre_cliente, g.gama FROM gama_producto g JOIN cliente c;
+-- SELECT c.nombre_cliente, CONCAT_WS('',e.nombre,e.apellido1,e.apellido2) AS 'representante de ventas', CONCAT_WS('',e.nombre,e.apellido1,e.apellido2,e.codigo_jefe) AS 'Jefe'  FROM pago p JOIN cliente c USING(codigo_cliente) JOIN empleado e ON c.codigo_empleado_rep_ventas=e.codigo_empleado;
+SELECT c.nombre_cliente, e.nombre AS 'Nombre Empleado',p.fecha_pedido,g.gama FROM gama_producto g JOIN pedido p JOIN cliente c JOIN empleado e WHERE g.gama LIKE ('%Herramientas%');
+SELECT DISTINCT e.nombre AS 'Nombre empleado', COUNT(c.nombre_cliente) AS 'Clientes'FROM pedido p JOIN cliente c USING(codigo_cliente) JOIN empleado e WHERE c.codigo_empleado_rep_ventas=e.codigo_empleado;
+SELECT c.nombre_cliente, COUNT(p.cantidad) AS 'Pedidos' FROM detalle_pedido p JOIN cliente c USING(codigo_cliente) JOIN pedido e WHERE c.codigo_cliente = p.codigo_pedido;
+SELECT p.fecha_pago, c.nombre_cliente FROM cliente c JOIN pago p;
