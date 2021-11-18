@@ -1,0 +1,6 @@
+NO SQL:
+1- use universidad
+2- db.createCollection("cursos")
+3- db.cursos.insert({"clave":"1523","titulo":"Matemáticas","duración":5,"costo":"1900"})
+4- db.createCollection("estudiantes")
+5- db
