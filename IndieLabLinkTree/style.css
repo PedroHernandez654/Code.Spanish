@@ -1,0 +1,76 @@
+*{
+  padding: 0;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: 2px;
+}
+body{
+  background-image: linear-gradient(135deg,#f95a57,#fa9542,#fce05b,#c5e262,#6bb8ec,
+  #c861de,#fb75b6);
+  background-size: 500%;
+    animation: faniamado 10s infinite;
+}
+.contenedor
+{
+  width: 80%;
+  margin:0 auto;
+  overflow:hidden;
+  max-width: 2000px;
+}
+.profile-picture{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-top: 1%;
+  height: auto;
+  max-width: 300px;
+}
+.links{
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: 1px solid white;
+  border-width: 2px;
+  background-color: black;
+  width: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  border-radius: 40px;
+
+  font-size: 18px;
+
+  padding: 20px;
+}
+a{
+  text-decoration: none;
+  color: aliceblue;
+}
+a:hover{
+  color: black;
+  background-color: white;
+}
+
+@keyframes faniamado {
+  0%{
+    background-position: 0% 50%;
+  }
+  50%{
+    background-position: 100% 50%;
+  }
+  100%{
+    background-position: 0% 50%;
+  }
+}
+
+@media screen and (max-width: 800px){
+  .links{
+    width: 90%;
+  }
+}
+@media screen and (max-width: 400px){
+  .contenedor{
+    width: 90%;
+  }
+}
