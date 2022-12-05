@@ -1,0 +1,7 @@
+D:\Pedro Hernandez\Documents\C#\Examen2Parcial\Clases\bin\Debug\Clases.exe.config
+D:\Pedro Hernandez\Documents\C#\Examen2Parcial\Clases\bin\Debug\Clases.exe
+D:\Pedro Hernandez\Documents\C#\Examen2Parcial\Clases\bin\Debug\Clases.pdb
+D:\Pedro Hernandez\Documents\C#\Examen2Parcial\Clases\obj\Debug\Clases.csproj.AssemblyReference.cache
+D:\Pedro Hernandez\Documents\C#\Examen2Parcial\Clases\obj\Debug\Clases.csproj.CoreCompileInputs.cache
+D:\Pedro Hernandez\Documents\C#\Examen2Parcial\Clases\obj\Debug\Clases.exe
+D:\Pedro Hernandez\Documents\C#\Examen2Parcial\Clases\obj\Debug\Clases.pdb
