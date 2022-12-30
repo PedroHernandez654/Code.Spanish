@@ -1,0 +1,14 @@
+D:\Pedro Hernandez\Documents\C#\Algoritmo_Dijkstra\Algoritmo_Dijkstra\bin\Debug\netcoreapp3.1\Algoritmo_Dijkstra.exe
+D:\Pedro Hernandez\Documents\C#\Algoritmo_Dijkstra\Algoritmo_Dijkstra\bin\Debug\netcoreapp3.1\Algoritmo_Dijkstra.deps.json
+D:\Pedro Hernandez\Documents\C#\Algoritmo_Dijkstra\Algoritmo_Dijkstra\bin\Debug\netcoreapp3.1\Algoritmo_Dijkstra.runtimeconfig.json
+D:\Pedro Hernandez\Documents\C#\Algoritmo_Dijkstra\Algoritmo_Dijkstra\bin\Debug\netcoreapp3.1\Algoritmo_Dijkstra.runtimeconfig.dev.json
+D:\Pedro Hernandez\Documents\C#\Algoritmo_Dijkstra\Algoritmo_Dijkstra\bin\Debug\netcoreapp3.1\Algoritmo_Dijkstra.dll
+D:\Pedro Hernandez\Documents\C#\Algoritmo_Dijkstra\Algoritmo_Dijkstra\bin\Debug\netcoreapp3.1\Algoritmo_Dijkstra.pdb
+D:\Pedro Hernandez\Documents\C#\Algoritmo_Dijkstra\Algoritmo_Dijkstra\obj\Debug\netcoreapp3.1\Algoritmo_Dijkstra.csproj.AssemblyReference.cache
+D:\Pedro Hernandez\Documents\C#\Algoritmo_Dijkstra\Algoritmo_Dijkstra\obj\Debug\netcoreapp3.1\Algoritmo_Dijkstra.GeneratedMSBuildEditorConfig.editorconfig
+D:\Pedro Hernandez\Documents\C#\Algoritmo_Dijkstra\Algoritmo_Dijkstra\obj\Debug\netcoreapp3.1\Algoritmo_Dijkstra.AssemblyInfoInputs.cache
+D:\Pedro Hernandez\Documents\C#\Algoritmo_Dijkstra\Algoritmo_Dijkstra\obj\Debug\netcoreapp3.1\Algoritmo_Dijkstra.AssemblyInfo.cs
+D:\Pedro Hernandez\Documents\C#\Algoritmo_Dijkstra\Algoritmo_Dijkstra\obj\Debug\netcoreapp3.1\Algoritmo_Dijkstra.csproj.CoreCompileInputs.cache
+D:\Pedro Hernandez\Documents\C#\Algoritmo_Dijkstra\Algoritmo_Dijkstra\obj\Debug\netcoreapp3.1\Algoritmo_Dijkstra.dll
+D:\Pedro Hernandez\Documents\C#\Algoritmo_Dijkstra\Algoritmo_Dijkstra\obj\Debug\netcoreapp3.1\Algoritmo_Dijkstra.pdb
+D:\Pedro Hernandez\Documents\C#\Algoritmo_Dijkstra\Algoritmo_Dijkstra\obj\Debug\netcoreapp3.1\Algoritmo_Dijkstra.genruntimeconfig.cache
