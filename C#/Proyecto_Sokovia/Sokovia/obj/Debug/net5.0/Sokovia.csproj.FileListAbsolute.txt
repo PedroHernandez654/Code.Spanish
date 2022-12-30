@@ -1,0 +1,16 @@
+D:\Pedro Hernandez\Documents\C#\Sokovia\Sokovia\bin\Debug\net5.0\Sokovia.exe
+D:\Pedro Hernandez\Documents\C#\Sokovia\Sokovia\bin\Debug\net5.0\Sokovia.deps.json
+D:\Pedro Hernandez\Documents\C#\Sokovia\Sokovia\bin\Debug\net5.0\Sokovia.runtimeconfig.json
+D:\Pedro Hernandez\Documents\C#\Sokovia\Sokovia\bin\Debug\net5.0\Sokovia.runtimeconfig.dev.json
+D:\Pedro Hernandez\Documents\C#\Sokovia\Sokovia\bin\Debug\net5.0\Sokovia.dll
+D:\Pedro Hernandez\Documents\C#\Sokovia\Sokovia\bin\Debug\net5.0\ref\Sokovia.dll
+D:\Pedro Hernandez\Documents\C#\Sokovia\Sokovia\bin\Debug\net5.0\Sokovia.pdb
+D:\Pedro Hernandez\Documents\C#\Sokovia\Sokovia\obj\Debug\net5.0\Sokovia.csproj.AssemblyReference.cache
+D:\Pedro Hernandez\Documents\C#\Sokovia\Sokovia\obj\Debug\net5.0\Sokovia.GeneratedMSBuildEditorConfig.editorconfig
+D:\Pedro Hernandez\Documents\C#\Sokovia\Sokovia\obj\Debug\net5.0\Sokovia.AssemblyInfoInputs.cache
+D:\Pedro Hernandez\Documents\C#\Sokovia\Sokovia\obj\Debug\net5.0\Sokovia.AssemblyInfo.cs
+D:\Pedro Hernandez\Documents\C#\Sokovia\Sokovia\obj\Debug\net5.0\Sokovia.csproj.CoreCompileInputs.cache
+D:\Pedro Hernandez\Documents\C#\Sokovia\Sokovia\obj\Debug\net5.0\Sokovia.dll
+D:\Pedro Hernandez\Documents\C#\Sokovia\Sokovia\obj\Debug\net5.0\ref\Sokovia.dll
+D:\Pedro Hernandez\Documents\C#\Sokovia\Sokovia\obj\Debug\net5.0\Sokovia.pdb
+D:\Pedro Hernandez\Documents\C#\Sokovia\Sokovia\obj\Debug\net5.0\Sokovia.genruntimeconfig.cache
