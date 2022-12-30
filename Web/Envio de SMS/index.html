@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Lista</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="main">
+      <p class="mensaje">Mensaje a enviar: <a class="linkMensaje" id="btn-abrir-listaMensajes"> ◄ -- SELECCIONE UN MENSAJE -- ►</a></p>
+    </div>
+
+    <div class="listaGanadores">
+      <p>GANADORES</p>
+      <label><input  class="inline Ganador" type="checkbox" name="GANADOR #1" />GANADOR #1</label>
+      <label><input  class="inline Ganador" type="checkbox" name="GANADOR #2" />GANADOR #2</label>
+      <label><input  class="inline Ganador" type="checkbox" name="GANADOR #3" />GANADOR #3</label>
+      <label><input  class="inline Ganador" type="checkbox" name="GANADOR #4" />GANADOR #4</label>
+      <label><input  class="inline Ganador" type="checkbox" name="GANADOR #5" />GANADOR #5</label>
+      <label><input  class="inline Ganador" type="checkbox" name="GANADOR #6" />GANADOR #6</label>
+      <button class="center" onclick="Env()">Enviar SMS</button>
+    </div>
+
+    <dialog id="listaMensajes" class="Lista_Mensajes">
+      <ul>
+        <li>
+          <label for="1_Mensaje" name="1_Mensaje">
+            <input class="inline Mensaje" value=1 type="checkbox" name="FELICIDADES, GANÓ EN EL SORTEO {sorteo}, FECHA: {fecha} www.juegalabolita.com/Nueva_2 QUE GUSTO QUE USTED SEA UN GANADOR DE NUESTRO JUEGO LA BOLITA PARA NOSOTROS ES USTED MUY IPORTNATE " id="1_Mensaje" checked/>FELICIDADES, GANÓ EN EL SORTEO {sorteo}, FECHA: {fecha} 
+          </label>
+        </li>
+        <li>
+          <label for="2_Mensaje" name="2_Mensaje">
+            <input class="inline Mensaje" value=2 type="checkbox" name="Felicidades Es usted Ganador {sorteo} {fecha}" id="2_Mensaje">Felicidades Es usted Ganador {sorteo} {fecha}
+          </label>
+        </li>
+        <li>
+          <label for="3_Mensaje" name="3_Mensaje">
+            <input class="inline Mensaje" value=3 type="checkbox" name="usted GANÓ EN EL SORTEO {sorteo}, FECHA: {fecha}" id="3_Mensaje">usted GANÓ EN EL SORTEO {sorteo}, FECHA: {fecha}
+          </label>
+        </li>
+        <li>
+          <label for="4_Mensaje" name="4_Mensaje">
+            <input class="inline Mensaje" value=4 type="checkbox" name="SORTEO {sorteo} REALIZADO EL {fecha} ES USTED GANADOR" id="4_Mensaje">SORTEO {sorteo} REALIZADO EL {fecha} ES USTED GANADOR
+          </label>
+        </li>
+      </ul>
+      <button class="center" id="btn-cerrar-listaMensajes">Aceptar</button>
+    </dialog>
+  </body>
+  <script src="script.js"></script>
+</html>

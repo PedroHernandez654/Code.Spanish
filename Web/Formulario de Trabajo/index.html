@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css"/>
+  </head>
+  <body>
+    <h1 id="title">Job Survey Form</h1>
+    <p id="description">This is a form to know the satisfaction of the final product</p>
+    <form id="survey-form"  method="post" action='https://register-demo.freecodecamp.org'>
+      <fieldset>
+      <label id="name-label">Name: <input id="name" name="text" type="text" placeholder="Enter yor name" required/></label>
+      <label id="email-label">Email: <input id="email" type="email" placeholder="Enter your Email" required/></label>
+      <label id="number-label">In the range 1-10, would you recommend my work?<input id="number" type="number" min="1" max="10" placeholder="(1-10)"/></label>
+      <label> How did you hear about me?
+        <select id="dropdown">
+          <option value="">-- Select one --</option>
+          <option value="1">LinkedIN</option>
+          <option value="2">Web Page</option>
+          <option value="3">A Friend</option>
+          <option value="4">Others</option>
+        </select>
+      </label>
+      <label>What kind of project did I do for you?</label>
+      <label><input class="inline" type="radio" name="WebPage"/>Web Page</label>
+      <label><input class="inline" type="radio" name="MobileApp"/>Mobile App</label>
+      <label><input class="inline" type="radio"name="DesktopApp"/>Desktop App</label>
+      <label><input class="inline" type="radio" name="Coputer"/>Computer Equipment</label>
+      <label><input class="inline" type="radio" name="DataBase"/>Data Bases</label>
+      <label><input class="inline" type="radio" name="QA"/>Quality Assurance</label>
+      <label>Any comments or suggestions?</label>
+      <textarea placeholder="Your comments here..." rows="3" cols="30"></textarea>
+      <input type="submit" id="submit" value="Submit" />
+    </fieldset>
+    </form>
+  </body>
+</html>
